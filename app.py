@@ -142,7 +142,7 @@ elif st.session_state.page == "plot3":
         st.rerun()
 
     min_age, max_age = int(df['age'].min()),int(df['age'].max())
-    age_range = st.slider("Filter by Balance Range",
+    age_range = st.slider("Filter by Age",
                               min_value=min_age,max_value=max_age,
                               value=(30,40))
     selected_age = st.radio("Age Group to Highlight",options=['All', '18-30', '31-45', '46-60', '60+'])
