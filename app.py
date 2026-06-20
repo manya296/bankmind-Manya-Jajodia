@@ -89,7 +89,7 @@ if st.session_state.page == "plot1":
     col2.metric("Subscribed", (filtered_df['y'] == 'yes').sum())
     col3.metric("Subscription Rate", f"{(filtered_df['y'] == 'yes').mean()*100:.1f}%")
 
-    fig,ax = plt.subplots(figsize=(10,5))
+    fig,ax = plt.subplots(figsize=(10,6))
     sns.barplot(x="job",y="subscription_rate",data=job_sub,ax=ax,color="pink")
     ax.set_title('Subscription Rate by Jobs')
     ax.set_xlabel('Job')
