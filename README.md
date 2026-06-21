@@ -31,7 +31,9 @@ bankmind-Manya-Jajodia/
 │   └── bank-names.txt        # Feature descriptions
 ├── app.py                    # Streamlit dashboard
 ├── eda.ipynb                 # Exploratory Data Analysis notebook
+├── model.ipynb               # ML modeling notebook
 ├── requirements.txt          # Python dependencies
+├── EXPLANATION.md
 └── README.md
 ```
 
@@ -57,7 +59,7 @@ An interactive multi-page Streamlit dashboard with 4 key business analyses:
 
 ---
 
-## 🤖 Track 2 — ML Engineer (Coming Soon)
+## 🤖 Track 2 — ML Engineer 
 
 Predictive modeling to classify whether a customer will subscribe:
 
